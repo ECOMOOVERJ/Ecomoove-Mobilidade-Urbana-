@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcooMove - Scooters Elétricas RJ</title>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #0f172a;
+  color: #fff;
+}
+
+header {
+  background: #020617;
+  padding: 25px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: #22c55e;
+}
+
+header p {
+  margin: 5px;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.produto {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.produto:hover {
+  transform: scale(1.03);
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.preco {
+  color: #22c55e;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  display: block;
+  margin-top: 10px;
+  padding: 12px;
+  background: #22c55e;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.beneficios {
+  margin-top: 40px;
+  background: #020617;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.local {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #22c55e;
+  color: #000;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 22px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>EcooMove</h1>
+  <p>Scooters Elétricas</p>
+  <p>📍 Rio das Ostras - RJ</p>
+  <p>🚚 Atendimento em TODAS as cidades do Rio de Janeiro</p>
+  <p>📲 Fechamento direto pelo WhatsApp</p>
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="produto">
+  <img src="gfx1000.jpg">
+  <h3>GFX 1000W</h3>
+  <p class="preco">R$ 12.750</p>
+  <p>Autonomia 60-70KM • Suporta 180KG</p>
+  <a class="btn" href="https://wa.me/5522998267688?text=Olá,%20tenho%20interesse%20na%20GFX%201000W">Comprar no WhatsApp</a>
+</div>
+
+<div class="produto">
+  <img src="pop800.jpg">
+  <h3>POP 800W</h3>
+  <p class="preco">R$ 5.998</p>
+  <p>Autonomia 30-45KM • Suporta 150KG</p>
+  <a class="btn" href="https://wa.me/5522998267688?text=Olá,%20tenho%20interesse%20na%20POP%20800W">Comprar no WhatsApp</a>
+</div>
+
+<div class="produto">
+  <img src="patinete350.jpg">
+  <h3>Patinete 350W</h3>
+  <p class="preco">R$ 2.998</p>
+  <p>Até 30KM • Suporta 120KG</p>
+  <a class="btn" href="https://wa.me/5522998267688?text=Olá,%20tenho%20interesse%20no%20Patinete%20350W">Comprar no WhatsApp</a>
+</div>
+
+<div class="produto">
+  <img src="eco750.jpg">
+  <h3>ECO 750W</h3>
+  <p class="preco">R$ 8.990</p>
+  <p>Autonomia 30-35KM • Suporta 150KG</p>
+  <a class="btn" href="https://wa.me/5522998267688?text=Olá,%20tenho%20interesse%20na%20ECO%20750W">Comprar no WhatsApp</a>
+</div>
+
+<div class="produto">
+  <img src="x11mini.jpg">
+  <h3>X11 Mini 1000W</h3>
+  <p class="preco">R$ 10.500</p>
+  <p>Autonomia 45-50KM • Suporta 150KG</p>
+  <a class="btn" href="https://wa.me/5522998267688?text=Olá,%20tenho%20interesse%20na%20X11%20Mini">Comprar no WhatsApp</a>
+</div>
+
+</div>
+
+<div class="beneficios">
+  <h2>Por que comprar na EcooMove?</h2>
+  <p>✔ Atendimento rápido pelo WhatsApp</p>
+  <p>✔ Enviamos para todo o estado do RJ</p>
+  <p>✔ Produtos de qualidade e revisados</p>
+  <p>✔ Suporte direto com o vendedor</p>
+</div>
+
+<div class="local">
+  <h3>📍 Loja Física</h3>
+  <p>Rua Bangu 838 - Rio das Ostras</p>
+  <p>Atendemos todo o estado do Rio de Janeiro</p>
+</div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/5522998267688">💬</a>
+
+</body>
+</html>
